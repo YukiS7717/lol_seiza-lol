@@ -2,3 +2,10 @@ site_name: My Docs
 
 theme:
   name: material
+  palette:
+    primary: yellow
+  font:
+    text: UD Digi Kyokasho NK-R
+
+markdown_extensions:
+  - admonition
