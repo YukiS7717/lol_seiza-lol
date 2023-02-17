@@ -6,6 +6,20 @@ theme:
     primary: yellow
   font:
     text: UD Digi Kyokasho NK-R
+  features:
+    navigation.prune: true
+    navigation.tabs: true
+    navigation.top: true
 
 markdown_extensions:
   - admonition
+
+nav:
+  - Home: index.md
+  #- お知らせ:
+  - LOL:
+      - "考察":
+          - "ラムス ファイタービルド": LOL/Consideration/ラムス ファイタービルド.md
+      #- "検証":
+      #- "情報":
+  #- 雑記:
