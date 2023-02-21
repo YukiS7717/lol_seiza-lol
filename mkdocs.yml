@@ -45,11 +45,23 @@ plugins:
     lang: "ja"
 
 nav:
-  - Home: index.md
+  - Home:
+      - "お知らせ": index.md
+      - "サイトと自己紹介": Others\Introduction.md
   #- お知らせ:
   - LOL:
       - "考察":
-          - "ラムス ファイタービルド": LOL/Consideration/ラムス ファイタービルド.md
-      #- "検証":
-      #- "情報":
+          - "ラムス ファイタービルド": LOL/Consideration/Build_Rammus_Fighter.md
+          - "ヨリック 彗星ミッドビルド": LOL/Consideration/Build_Yorick_mid_Arcane-Comet.md
+          - "毒蛇の牙の可能性": LOL/Consideration/Build_Serpents-Fang_Shinged.md
+      - "検証":
+          - "ガレン ジャッジメント(E)のヒット数": LOL/Verification/Hit-E_Garen.md
+          - "ライアンドリーの苦悶のスタック変更": LOL/Verification/Stack_Liandrys-Anguish.md
+      - "データ":
+          - "基本ステータスの金銭効率": Data\Efficiency_BasicStatus.md
+          - "ADC素材アイテムの金銭効率": Data\Efficiency_MaterialItem_ADC.md
+          - "ファイターアサシン素材アイテムの金銭効率": Data\Efficiency_MaterialItem_FighterAssasin.md
+          - "メイジ素材アイテムの金銭効率": Data\Efficiency_MaterialItem_Mage.md
+          - "タンク素材アイテムの金銭効率": Data\Efficiency_MaterialItem_Tank.md
+
   #- 雑記:
